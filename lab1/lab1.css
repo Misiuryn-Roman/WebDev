@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: grey;
+}
+
+a {
+    color: orange;
+}
+
+button,
+a {
+    cursor: pointer;
+}
+
+button,
+select {
+    border-radius: 4px;
+    width: 8rem;
+    height: 35px;
+    line-height: 35px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    line-height: 70px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 40rem;
+}
+
+.selected {
+    color: black;
+}
+
+button.action {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    align-items: center;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    border: none;
+    color: #fff;
+    background-color: #ffa500;
+}
+
+button.action.outlined {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffa500;
+    background-color: transparent;
+    border: 2px solid #ffa500;
+}
+
+button.action:hover {
+    background-color: #ff7f50;
+    transform: scale(1.05);
+}
+
+.container {
+    padding: 30px 60px;
+
+}
+
+.container:nth-child(odd) {
+    background-color: #F8F8F8;
+}
+
+.container:first-child {
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.art {
+    width: 50%;
+}
+
+.form {
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 50%;
+}
+
+.explorer {
+    font-family: "Times New Roman", Times , serif;
+    font-size: 80px;
+}
+
+.explorer2 {
+    font-family: "Times New Roman", Times , serif;
+    font-size: 40px;
+}
+
+.drops {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.drops1, .drops2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 45%;
+}
+
+select {
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+.newway {
+    font-family: "Times New Roman", Times , serif;
+    font-size: 45px;
+}
+
+@font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/muli/v29/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk30eg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.decadestext {
+    font-size: 17px;
+    font-family: "Muli";
+    color: #ccc;
+    word-spacing: 5px;
+}
+
+/* .drops {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.drops1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.drops2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.carousel-title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.thumbnail {
+    width: 20%;
+}
+
+.rights {
+    height: 40px;
+    line-height: 40px;
+}
+
+.icons {
+    border-top: #797979 1px solid;
+    text-align: center;
+}
+
+.icons img {
+    padding: 10px;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+.container-inside{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding: 200px 100px;
+    /* gap: 50px; */
+}
