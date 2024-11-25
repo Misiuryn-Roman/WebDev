@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "title": "Felix",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, nam.",
+    "imgpath": "Ginger",
+    "price": 30,
+    "type": "cat",
+    "quantity": 1
+  }
+]

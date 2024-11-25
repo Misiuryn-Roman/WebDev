@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7a5ddcbd.css",
+    "main.js": "/static/js/main.a853cd2f.js",
+    "static/media/shorthair.png": "/static/media/shorthair.a37080be904655d220cf.png",
+    "static/media/husky.jpg": "/static/media/husky.be1872873f07904f10a5.jpg",
+    "static/media/ginger.jpg": "/static/media/ginger.b1068bfc396e845d618b.jpg",
+    "static/media/german.jpg": "/static/media/german.8a18f08cbef9ebd96719.jpg",
+    "static/media/header_photo.jpg": "/static/media/header_photo.1606e4d356eb45d53807.jpg",
+    "static/media/logo.png": "/static/media/logo.0bb7592ba664262c3161.png",
+    "index.html": "/index.html",
+    "main.7a5ddcbd.css.map": "/static/css/main.7a5ddcbd.css.map",
+    "main.a853cd2f.js.map": "/static/js/main.a853cd2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a5ddcbd.css",
+    "static/js/main.a853cd2f.js"
+  ]
+}
