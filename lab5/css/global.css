@@ -1,0 +1,29 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    display: block;
+}
+
+
