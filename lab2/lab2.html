@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Finder</title>
+    <link rel="stylesheet" href="lab2.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="adaptation.css">
+</head>
+<body>
+    <div class="header container space-between">
+        <img src="images/logo.svg" />
+        <ul class="navigation">
+            <li><a class="selected" href="">Home</a></li>
+            <li><a href="">Destinations</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Partner</a></li>
+            <li><button class="action outlined">Login</button></li>
+            <li><button class="action">Register</button></li>
+        </ul>
+        
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    
+<div class="container row">
+    <div class="form">
+        <h1 class="explorer">Explore and Travel</h1>
+        <h3>Holiday finder</h3>
+        <div class="drops">
+            <div class="drops1">
+                <select name="Location">
+                    <option value="0">Location</option>
+                    <option value="1">Portugal!</option>
+                </select>
+                <select>
+                    <option value="0">Activity</option>
+                    <option value="1">Swimming!</option>
+                </select>
+            </div>
+            <div class="drops2">
+                <select>
+                    <option value="0">Grade</option>
+                    <option value="1">Hardcore!</option>
+                </select>
+                <select>
+                    <option value="0">Date</option>
+                    <option value="1">Tomorrow!</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <br>
+        <button class="action">Explore</button>
+    </div>
+    <img class="art" src="images/image1.svg" />
+</div>
+<div class="container row">
+    <img class="art" src="images/image2.svg" />
+    <div class="container-inside">
+        <h1 class="newway">A new way to explore the world</h1>
+        <p class="decadestext">For decades, travelers have relied on Lonely Planet books to help them plan and execute their perfect trip. Now, they can also let Lonely Planet Experiences lead the way.</p>
+        <button class="action">Learn more</button>
+    </div>
+</div>
+<div class="container column">
+    <div class="carousel-title space-between">
+        <h2 class="explorer2">Featured destinations</h2>
+        <a>View all ></a>
+    </div>
+    <div class="carousel">
+        <img class="thumbnail" src="images/destination1.svg"/>
+        <img class="thumbnail" src="images/destination2.svg"/>
+        <img class="thumbnail" src="images/destination3.svg"/>
+        <img class="thumbnail" src="images/destination4.svg"/>
+    </div>
+</div>
+<footer class="container">
+    <div class="rights row space-between">
+        <img src="images/logo.svg" />
+        <div class="paddingtop">All rights reserved</div>
+    </div>
+    <br>
+    <div class="icons">
+        <a><img src="images/twitter.svg" /></a>
+        <a><img src="images/facebook.svg" /></a>
+        <a><img src="images/instagram.svg" /></a>
+        <a><img src="images/linkedin.svg" /></a>
+        <a><img src="images/youtube.svg" /></a>
+    </div>
+</footer>
+<script>
+    const hamburger = document.querySelector('.hamburger');
+    const navigation = document.querySelector('.navigation');
+    
+    hamburger.addEventListener('click', () => {
+        // Toggle the active class to open/close the menu
+        navigation.classList.toggle('active');
+        hamburger.classList.toggle('active');
+    });
+</script>
+
+</body>
+</html>
