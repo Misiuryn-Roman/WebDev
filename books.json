@@ -1,0 +1,32 @@
+[
+  {
+    "title": "The Dark Tower 2",
+    "description": "The Drawing Of The Three is one of the greatest books of all times",
+    "price": 30,
+    "img": "image/tdt2.jpg"
+  },
+  {
+    "title": "Doctor Sleep",
+    "description": "Dan Torrance",
+    "price": 40,
+    "img": "image/dcsleep.jpg"
+  },
+  {
+    "title": "The Outsider",
+    "description": "Really cool book",
+    "price": 50,
+    "img": "image/outsider.jpeg"
+  },
+  {
+    "title": "Dreamcatcher",
+    "description": "Wdad",
+    "price": 45,
+    "img": "image/dream.jpg"
+  },
+  {
+    "title": "The Dark Tower I: The Gunslinger",
+    "description": "An informational description",
+    "price": 25,
+    "img": "image/tdt1.jpg"
+  }
+]
