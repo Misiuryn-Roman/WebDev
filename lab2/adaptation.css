@@ -1,0 +1,167 @@
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        line-height: normal;
+        padding: 20px;
+    }
+    
+    .navigation {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 0;
+    }
+    
+    .form {
+        width: 100%;
+    }
+    
+    .art {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .drops {
+        flex-direction: column;
+    }
+    
+    .explorer {
+        font-size: 50px;
+    }
+    
+    .newway {
+        font-size: 30px;
+    }
+    
+    .carousel {
+        flex-wrap: wrap;
+    }
+    
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 15px;
+    }
+
+    .thumbnail {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .icons{
+        padding-top: 15px;
+    }
+
+    .drops1, .drops2 {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .hamburger{
+        padding-left: 17px;
+        padding-top: 15px;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 10px;
+    }
+    
+    .explorer {
+        font-size: 40px;
+    }
+    
+    .newway {
+        font-size: 24px;
+    }
+    
+    .form {
+        padding-right: 0;
+    }
+    
+    .drops {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .drops1, .drops2 {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        border-top: #797979 1px solid;
+        text-align: center;
+    }
+
+    .paddingtop {
+        padding-top: 5px;
+    }
+
+    .hamburger{
+        padding-left: 17px;
+        padding-top: 15px;
+        justify-content: center;
+    }
+
+    .navigation {
+        width: 94%;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel {
+        flex-direction: column;
+    }
+    
+    .carousel-title {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .thumbnail {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .container-inside {
+        padding: 50px 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .explorer {
+        font-size: 100px;
+    }
+
+    .navigation li a {
+        font-size: 18px;
+    }
+    
+    .newway {
+        font-size: 60px;
+    }
+    
+    .decadestext{
+        font-size: 30px;
+    }
+}
