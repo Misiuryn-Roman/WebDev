@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab4</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header class="header">
+            <p class="header__title">
+                My Library
+            </p>
+            <nav id="nav-links" class="header__nav">
+                <ul>
+                    <li class="header__nav-item"><a href="">My Books</a></li>
+                    <li class="header__nav-item"><a href="create.html">Create Boook</a></li>
+                </ul>
+            </nav>
+            <input type="text" id="find_item" placeholder="Search..">
+            <button id="search_button" class="search">Search</button>
+            <button id="clear_button" class="clear">Clear</button>
+        </header>
+        <div class="content">
+            <div class="settings">
+                <div class="sort">
+                    <p class="sort__title">
+                        Manage books
+                    </p>
+                    <div class="sort__parag">
+                        <p class="sort__parag-p">
+                            Sort by the most expensive one:  
+                        </p>
+                        <label id="sort_checkbox" class="switch">
+                          <input type="checkbox" id="sort_checkbox_input">
+                          <span class="slider round"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="count">
+                    <p class="count__parag">
+                        Count total price:
+                    </p>
+                    <div class="count__buttons">
+                        <button id="count_button" class="count__button">Count</button>
+                        <button id="count_clear_button" class="count__button-clear">Clear</button>
+                    </div>
+                    <div class="count__num">
+                        <p class="count__num-tittle">Total price: </p>
+                        <p id="sumprice" class="count__num-num">0</p>
+                    </div>
+                </div>
+            </div>
+            
+            <ul id="items_container" class="cards">
+                <ul id="items_container" class="cards">
+                    <!-- These will be generated dynamically by JavaScript -->
+                </ul>                
+            </ul>
+        </div>
+        <!-- Link to external JavaScript file -->
+        <script src="js/script.js"></script>
+    </main>
+</body>
+</html>

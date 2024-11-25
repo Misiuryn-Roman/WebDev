@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Book</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Center the form */
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+        }
+
+        .form-container label, 
+        .form-container input, 
+        .form-container button {
+            margin: 10px 0;
+            width: 100%;
+        }
+
+        .form-container input {
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .form-container button {
+            padding: 10px;
+            background-color: yellowgreen;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .form-container button:hover {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header class="header">
+            <p class="header__title">My Library</p>
+            <nav id="nav-links" class="header__nav">
+                <ul>
+                    <li class="header__nav-item"><a href="index.html">My Books</a></li>
+                    <li class="header__nav-item"><a href="create.html">Create Book</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="form-container">
+            <form id="bookForm">
+                <h1>Create Book</h1>
+                
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title" required>
+                
+                <label for="description">Description</label>
+                <input type="text" id="description" name="description" required>
+                
+                <label for="price">Price</label>
+                <input type="number" id="price" name="price" required>
+                
+                <label for="imagePath">Image Path</label>
+                <input type="text" id="imagePath" name="imagePath" placeholder="e.g., image/book.jpg">
+                
+                <button type="submit">Create Book</button>
+            </form>
+        </div>
+
+        <script src="js/createEdit.js"></script>
+    </main>
+</body>
+</html>
